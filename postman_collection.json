@@ -1,0 +1,566 @@
+{
+	"info": {
+		"_postman_id": "9a43150b-9805-42c4-9ee4-34f5f3bbbb32",
+		"name": "skilltest-1-RSP-15April2021-Agus-Basari-Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "books",
+			"item": [
+				{
+					"name": "books",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "This authorization method will be used for every request in this collection. You can override this by specifying one in the request.",
+							"host": [
+								"This authorization method will be used for every request in this collection",
+								" You can override this by specifying one in the request",
+								""
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "books",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "This authorization method will be used for every request in this collection. You can override this by specifying one in the request.",
+									"host": [
+										"This authorization method will be used for every request in this collection",
+										" You can override this by specifying one in the request",
+										""
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 18 Apr 2021 06:36:07 GMT"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"meta\": {\n        \"code\": 200,\n        \"status\": \"success\",\n        \"message\": \"Successfully add category.\"\n    },\n    \"data\": [\n        {\n            \"CreatedAt\": \"2021-04-18T00:41:36.73543+07:00\",\n            \"UpdatedAt\": \"2021-04-18T13:36:02.967632+07:00\",\n            \"DeletedAt\": null,\n            \"ID\": 1,\n            \"Title\": \"Laravel Eloquent\",\n            \"Description\": \"It will explain about REST API in Laravel\",\n            \"Author\": \"Jabrix Junior\",\n            \"Year\": 2020,\n            \"IdCategory\": 1,\n            \"Category\": {\n                \"ID\": 0,\n                \"CreatedAt\": \"0001-01-01T00:00:00Z\",\n                \"UpdatedAt\": \"0001-01-01T00:00:00Z\",\n                \"DeletedAt\": null,\n                \"Name\": \"\"\n            },\n            \"Stock\": 4,\n            \"Status\": \"\"\n        },\n        {\n            \"CreatedAt\": \"2021-04-18T01:47:53.631446+07:00\",\n            \"UpdatedAt\": \"2021-04-18T01:47:53.631446+07:00\",\n            \"DeletedAt\": null,\n            \"ID\": 3,\n            \"Title\": \"Laravel Eloquent\",\n            \"Description\": \"It will explain about REST API in Laravel\",\n            \"Author\": \"Jabrix Junior\",\n            \"Year\": 2020,\n            \"IdCategory\": 1,\n            \"Category\": {\n                \"ID\": 0,\n                \"CreatedAt\": \"0001-01-01T00:00:00Z\",\n                \"UpdatedAt\": \"0001-01-01T00:00:00Z\",\n                \"DeletedAt\": null,\n                \"Name\": \"\"\n            },\n            \"Stock\": 0,\n            \"Status\": \"\"\n        },\n        {\n            \"CreatedAt\": \"2021-04-18T01:49:02.351034+07:00\",\n            \"UpdatedAt\": \"2021-04-18T01:49:02.351034+07:00\",\n            \"DeletedAt\": null,\n            \"ID\": 4,\n            \"Title\": \"Laravel Lumen\",\n            \"Description\": \"It will explain about REST API in Laravel\",\n            \"Author\": \"Jabrix Junior\",\n            \"Year\": 2020,\n            \"IdCategory\": 1,\n            \"Category\": {\n                \"ID\": 0,\n                \"CreatedAt\": \"0001-01-01T00:00:00Z\",\n                \"UpdatedAt\": \"0001-01-01T00:00:00Z\",\n                \"DeletedAt\": null,\n                \"Name\": \"\"\n            },\n            \"Stock\": 0,\n            \"Status\": \"\"\n        },\n        {\n            \"CreatedAt\": \"2021-04-18T01:49:21.310505+07:00\",\n            \"UpdatedAt\": \"2021-04-18T01:49:21.310505+07:00\",\n            \"DeletedAt\": null,\n            \"ID\": 5,\n            \"Title\": \"Laravel Lumens\",\n            \"Description\": \"It will explain about REST API in Laravel\",\n            \"Author\": \"Jabrix Junior\",\n            \"Year\": 2020,\n            \"IdCategory\": 3,\n            \"Category\": {\n                \"ID\": 0,\n                \"CreatedAt\": \"0001-01-01T00:00:00Z\",\n                \"UpdatedAt\": \"0001-01-01T00:00:00Z\",\n                \"DeletedAt\": null,\n                \"Name\": \"\"\n            },\n            \"Stock\": 0,\n            \"Status\": \"\"\n        },\n        {\n            \"CreatedAt\": \"2021-04-18T01:49:44.441556+07:00\",\n            \"UpdatedAt\": \"2021-04-18T01:49:44.441556+07:00\",\n            \"DeletedAt\": null,\n            \"ID\": 6,\n            \"Title\": \"Laravel Jabrix\",\n            \"Description\": \"It will explain about REST API in Laravel\",\n            \"Author\": \"Jabrix Junior\",\n            \"Year\": 2020,\n            \"IdCategory\": 3,\n            \"Category\": {\n                \"ID\": 0,\n                \"CreatedAt\": \"0001-01-01T00:00:00Z\",\n                \"UpdatedAt\": \"0001-01-01T00:00:00Z\",\n                \"DeletedAt\": null,\n                \"Name\": \"\"\n            },\n            \"Stock\": 0,\n            \"Status\": \"\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "books",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"title\": \"Laravel Jabrix\",\n    \"description\": \"It will explain about REST API in Laravel\",\n    \"author\": \"Jabrix Junior\",\n    \"year\": 2020,\n    \"category\": {\n        \"name\": \"Tech Lead\"\n    },\n    \"stock\": 5,\n    \"status\": \"ready\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/books",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"books"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "books",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"title\": \"Laravel Jabrix\",\n    \"description\": \"It will explain about REST API in Laravel\",\n    \"author\": \"Jabrix Junior\",\n    \"year\": 2020,\n    \"category\": {\n        \"name\": \"Tech Lead\"\n    },\n    \"stock\": 5,\n    \"status\": \"ready\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:1323/api/books",
+									"host": [
+										"localhost"
+									],
+									"port": "1323",
+									"path": [
+										"api",
+										"books"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 18 Apr 2021 06:36:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "99"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"meta\": {\n        \"code\": 200,\n        \"status\": \"success\",\n        \"message\": \"Book is exist, adding stock only.\"\n    },\n    \"data\": null\n}"
+						}
+					]
+				}
+			],
+			"auth": {
+				"type": "noauth"
+			},
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			]
+		},
+		{
+			"name": "categories",
+			"item": [
+				{
+					"name": "categories",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/categories",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "categories",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:1323/api/categories",
+									"host": [
+										"localhost"
+									],
+									"port": "1323",
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 18 Apr 2021 07:22:02 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "768"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"meta\": {\n        \"code\": 200,\n        \"status\": \"success\",\n        \"message\": \"Successfully add category.\"\n    },\n    \"data\": [\n        {\n            \"ID\": 1,\n            \"CreatedAt\": \"2021-04-18T00:41:36.734143+07:00\",\n            \"UpdatedAt\": \"2021-04-18T00:41:36.734143+07:00\",\n            \"DeletedAt\": null,\n            \"Name\": \"Programming\"\n        },\n        {\n            \"ID\": 3,\n            \"CreatedAt\": \"2021-04-18T01:49:21.309658+07:00\",\n            \"UpdatedAt\": \"2021-04-18T01:49:21.309658+07:00\",\n            \"DeletedAt\": null,\n            \"Name\": \"Tech Lead\"\n        },\n        {\n            \"ID\": 4,\n            \"CreatedAt\": \"2021-04-18T13:40:18.968281+07:00\",\n            \"UpdatedAt\": \"2021-04-18T13:40:18.968281+07:00\",\n            \"DeletedAt\": null,\n            \"Name\": \"\"\n        },\n        {\n            \"ID\": 5,\n            \"CreatedAt\": \"2021-04-18T13:43:20.697048+07:00\",\n            \"UpdatedAt\": \"2021-04-18T13:43:20.697048+07:00\",\n            \"DeletedAt\": null,\n            \"Name\": \"test\"\n        },\n        {\n            \"ID\": 7,\n            \"CreatedAt\": \"2021-04-18T13:47:03.270614+07:00\",\n            \"UpdatedAt\": \"2021-04-18T13:47:03.270614+07:00\",\n            \"DeletedAt\": null,\n            \"Name\": \"test2\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "categories",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"name\": \"test\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/categories",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"categories"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "categories",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"name\": \"test\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "localhost:1323/api/categories",
+									"host": [
+										"localhost"
+									],
+									"port": "1323",
+									"path": [
+										"api",
+										"categories"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json; charset=UTF-8"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 18 Apr 2021 06:43:20 GMT"
+								},
+								{
+									"key": "Content-Length",
+									"value": "110"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"meta\": {\n        \"code\": 200,\n        \"status\": \"success\",\n        \"message\": \"Successfully add category.\"\n    },\n    \"data\": {\n        \"id\": 5,\n        \"name\": \"test\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "users",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "users",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/login",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "secret",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": null
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "loan",
+			"item": [
+				{
+					"name": "loan",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_book\": 1,\n    \"id_user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/loan",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"loan"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "return",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "localhost:1323/api/loan",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"loan"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "payment",
+			"item": [
+				{
+					"name": "payment",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_book\": 1,\n    \"id_user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/payment",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"payment"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_book\": 1,\n    \"id_user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/loan",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"loan"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_book\": 1,\n    \"id_user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/loan",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"loan"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"id_book\": 1,\n    \"id_user\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:1323/api/payment",
+							"host": [
+								"localhost"
+							],
+							"port": "1323",
+							"path": [
+								"api",
+								"payment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
